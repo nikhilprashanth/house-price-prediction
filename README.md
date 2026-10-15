@@ -21,9 +21,18 @@ The training data contains house features and their sale prices. The test data c
 * Evaluated model performance using Mean Absolute Error (MAE).
 * Got reduction in MAE as more parameters were considered into consideration
 
-## Models
+## Models and Results
 
 * Linear Regression with Multiple Variables/Parameters
+* Linear Regression
+
+Used a Linear Regression model trained on numerical and categorical housing features after preprocessing missing values and encoding categorical variables.
+
+Evaluation metric: Mean Absolute Error (MAE)
+
+Validation MAE: $20,466.13
+
+This means that, on the validation set, the model's predictions differed from the actual sale prices by an average of approximately $20,466.
 
 ## Tools and Libraries
 
